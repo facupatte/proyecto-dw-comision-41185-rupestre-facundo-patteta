@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+    
+    <link rel="stylesheet" href="../Estilos/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;700&family=Rubik:wght@300;500;700&family=Work+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="body">
+<!-- Dentro del body para el proyecto-->
+
+<header class="encabezado">
+
+    <!--Logo-->
+    <div>
+        <img class="encabezado__logo"  src="../imagenes/logo-rupestre.jpg" alt="logo-rupestre" width="150" height="150">
+    </div>
+
+    
+    <!-- Lista de enlaces para navegar dentro del sitio -->
+    <ul class="encabezado__navegacion">
+
+        <li>  
+            <a href="../index.html" class="encabezado__navegacion--texto">inicio</a>
+        </li>
+
+        <li>  
+            <a href="./empresa.html" class="encabezado__navegacion--texto">Empresa</a>
+        </li>
+
+        <li> 
+            <a href="./productos-y-servicios.html" class="encabezado__navegacion--texto">Productos y Servicios</a> 
+        </li>
+
+        <li> 
+            <a href="./presupuesto.html" class="encabezado__navegacion--texto">Presupuesto</a> 
+        </li>
+
+        <li>
+            <a href="./contacto.html" class="encabezado__navegacion--texto">Contacto</a> 
+        </li>
+
+    </ul>
+
+
+</header>
+
+<main class="main">
+    <!--va acontener todos los elementos section que se plasmen en la página -->
+    <section>
+        <!-- formulario de contacto -->
+        <form class="form">
+
+            <div class="form__campos">
+                <label for="Nombre" class="label">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="ingrese su nombre" required class="input">
+            </div>
+
+            <div class="form__campos">
+                <label for="Apellido" class="label">Apellido</label>
+                <input type="text" id="apellido" name="apellido" placeholder="ingrese su apellido" required class="input">
+            </div>
+
+            <div class="form__campos">
+                <label for="Empresa" class="label">Empresa</label>
+                <input type="text" id="empresa" name="empresa" placeholder="nombre de su empresa" class="input">
+            </div>
+
+            <div class="form__campos">
+                <label for="Ciudad" class="label">Ciudad</label>
+                <input type="text" id="ciudad" name="ciudad" placeholder="ciudad" required class="input">
+            </div>
+
+            <div class="form__campos" >
+                <label for="email" class="label">Email</label>
+                <input type="email" id="email" name="email" placeholder="ingrese su email" required class="input">
+            </div>
+
+            <div class="form__campos">
+                <label for="Producto" class="label">Producto</label>
+                <select name="" id="Producto" class="input">
+                    <option value="">Seleccione..</option>
+                    <option value="Folletos">Folletos</option>
+                    <option value="Packaging">Packaging</option>
+                    <option value="Sticker">Sticker</option>
+                    <option value="Otros">Otros</option>
+                </select>
+            </div>
+
+            <div class="form__campos" class="label">
+                <label for="Descripción" class="label">Descripción</label>
+                <textarea name="Descrpción" id="Descripción" cols="30" rows="10" placeholder="Detalle medidas, colores, formas y todo lo que le parezca relevante" class="input"></textarea>
+            </div>
+
+            <div class="boton">
+                <button class="boton__texto">Enviar</button>
+            </div>
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer class="footer">
+    <!--parte final a mostrar -->
+
+    <!--lista de enlaces de interes-->
+
+    <div class="footer__nav">
+            <!--aca va icono de instagram-->
+             <a href="https://www.instagram.com/rupestreok/" target="_blank" >Instagram</a>
+            
+            <!--aca va icono de Facebook-->     
+             <a href="https://www.facebook.com/Imprenta-Rupestre-106986241545579/" target="_blank">Facebook</a>
+            
+            <!--aca va icono de Linkedin-->
+             <a href="https://www.linkedin.com/company/rupestreok/" target="_blank">Linkedin</a>
+    </div>
+
+    <div class="footer__pie">
+    <!--logo-->
+        <img class="footer__logo" src="../imagenes/logo-2-rupestre.jpg" alt="logo-2-rupestre" width="150" height="150">
+
+    <!--derechos reservados-->
+        <div class="footer__info">
+            <p>Dirección: Guatemala M38 S9, Montevideo, Uruguay </p>
+
+            <p>tel: (+598)98277063 </p>
+
+            <p>2022 Rupestre S.A.S, Todos los derechos reservados </p>
+        </div>
+    </div>
+   
+
+</footer>
+
+
+</body>
+</html>

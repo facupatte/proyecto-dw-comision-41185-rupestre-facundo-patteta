@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    
+    <link rel="stylesheet" href="../Estilos/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;700&family=Rubik:wght@300;500;700&family=Work+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="body">
+<!-- Dentro del body para el proyecto-->
+
+<header class="encabezado">
+
+    <!--Logo-->
+    <div>
+        <img class="encabezado__logo"  src="../imagenes/logo-rupestre.jpg" alt="logo-rupestre" width="150" height="150">
+    </div>
+
+    
+    <!-- Lista de enlaces para navegar dentro del sitio -->
+    <ul class="encabezado__navegacion">
+
+        <li>  
+            <a href="../index.html" class="encabezado__navegacion--texto">inicio</a>
+        </li>
+
+        <li>  
+            <a href="./empresa.html" class="encabezado__navegacion--texto">Empresa</a>
+        </li>
+
+        <li> 
+            <a href="./productos-y-servicios.html" class="encabezado__navegacion--texto">Productos y Servicios</a> 
+        </li>
+
+        <li> 
+            <a href="./presupuesto.html" class="encabezado__navegacion--texto">Presupuesto</a> 
+        </li>
+
+        <li>
+            <a href="./contacto.html" class="encabezado__navegacion--texto">Contacto</a> 
+        </li>
+
+    </ul>
+
+
+</header>
+
+<main class="main">
+    <!--va acontener todos los elementos section que se plasmen en la página -->
+
+    <section>
+        <!-- formulario de contacto -->
+        <form class="form">
+
+            <div class="form__campos">
+                <label for="Nombre" class="label">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="ingrese su nombre" required class="input">
+            </div>
+
+            <div class="form__campos">
+                <label for="Apellido" class="label">Apellido</label>
+                <input type="text" id="apellido" name="apellido" placeholder="ingrese su apellido" required class="input">
+            </div>
+
+            <div class="form__campos">
+                <label for="Empresa" class="label">Empresa</label>
+                <input type="text" id="empresa" name="empresa" placeholder="nombre de su empresa" class="input">
+            </div class="form__campos">
+
+            <div class="form__campos">
+                <label for="Ciudad" class="label">Ciudad</label>
+                <input type="text" id="ciudad" name="ciudad" placeholder="ciudad" required class="input">
+            </div>
+
+            <div class="form__campos">
+                <label for="email" class="label">Email   </label>
+                <input type="email" id="email" name="email" placeholder="ingrese su email" required class="input">
+            </div>
+
+            <div class="form__campos">
+                <label for="consulta" class="label">Consulta</label>
+                <textarea name="consulta" id="consulta" cols="30" rows="10" class="input"></textarea>
+            </div>
+
+            <button class="boton">Enviar</button>
+            
+
+            <div class="form__campos">
+                <label for="" class="label">¿Quiere recibir nuestro newsletter?</label>
+                <input type="checkbox" name="newsletter" id="acepto">
+            </div>
+
+        </form>
+
+    </section>
+
+    <section> 
+            <!-- Mapa -->
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.1942909827894!2d-55.9992059!3d-34.851345099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f8968d93d2d7b%3A0x5a4c7b40d037f303!2sImprenta%20Rupestre%20-%20Soluciones%20Gr%C3%A1ficas!5e0!3m2!1ses!2suy!4v1656434249327!5m2!1ses!2suy" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    </section>
+
+    
+
+</main>
+
+<footer class="footer">
+    <!--parte final a mostrar -->
+
+    <!--lista de enlaces de interes-->
+
+    <div class="footer__nav">
+            <!--aca va icono de instagram-->
+             <a href="https://www.instagram.com/rupestreok/" target="_blank" >Instagram</a>
+            
+            <!--aca va icono de Facebook-->     
+             <a href="https://www.facebook.com/Imprenta-Rupestre-106986241545579/" target="_blank">Facebook</a>
+            
+            <!--aca va icono de Linkedin-->
+             <a href="https://www.linkedin.com/company/rupestreok/" target="_blank">Linkedin</a>
+    </div>
+
+    <div class="footer__pie">
+    <!--logo-->
+        <img class="footer__logo" src="../imagenes/logo-2-rupestre.jpg" alt="logo-2-rupestre" width="150" height="150">
+
+    <!--derechos reservados-->
+        <div class="footer__info">
+            <p>Dirección: Guatemala M38 S9, Montevideo, Uruguay </p>
+
+            <p>tel: (+598)98277063 </p>
+
+            <p>2022 Rupestre S.A.S, Todos los derechos reservados </p>
+        </div>
+    </div>
+   
+
+</footer>
+
+
+</body>
+</html>
