@@ -121,6 +121,7 @@
 .main{
 
     margin-top: 180px;
+    min-height: 100vh;
 
 }
 
@@ -128,12 +129,15 @@
 
 
 .presentacion{
+    width: 100%;
     background: rgb(14,9,0);
     background: linear-gradient(90deg, rgba(14,9,0,1) 0%, rgba(252,3,3,1) 0%, rgba(252,176,69,1) 100%);
     height: 780px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -142,18 +146,32 @@
     color: #000;
     text-align: left;
     padding: 40px;
+    animation-name: efecto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
     
     
 }
 
 
+
+
 .presentacion__link{
    
+    width: 200px;
     margin: 75px 40px;
     padding: 40px;
     background-color: rgba(0, 0, 0, 0.7);
     border:3px solid white;
+    transition:all 2s;
+}
+
+.presentacion__link:hover{
+
+    background-color: aliceblue;
     
+    
+   
 }
 
 .seccionImagenes{
@@ -377,6 +395,23 @@
 }
 
 /* Versión Mobile */
+
+@keyframes efecto {
+
+    0% {
+
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
 
 
 @media screen and (max-width: 599px) {
