@@ -493,6 +493,8 @@
 
   .encabezado__logo{
 
+    padding: 16px;
+    margin: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -518,6 +520,20 @@
 
     margin-top: 400px;
     margin-bottom: 0px;
+  }
+
+  .footer{
+    
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 300px;
+    
+  }
+
+  .footer__pie{
+
+    font-size: 12px;
+    padding: 32px;
   }
 
 }
