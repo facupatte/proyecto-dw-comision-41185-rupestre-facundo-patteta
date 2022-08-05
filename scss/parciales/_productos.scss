@@ -1,0 +1,83 @@
+/* Estilos productos y servicios */
+
+.productos{
+    
+    
+    padding: 80px;
+    display: grid;
+    align-items: center;
+    justify-content: left;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "titulo1 contenido1 contenido2 contenido3"
+    "titulo2 contenido4 contenido5 no"
+    "titulo3 contenido6 contenido7 no";
+           
+}
+
+.productos__titulo{
+
+    font-size: 24px;
+    color: rgb(245,163,12);
+    
+
+}
+
+.productos__titulo1{
+    grid-area: titulo1;
+
+}
+.productos__titulo2{
+    grid-area: titulo2;
+
+}
+.productos__titulo3{
+    grid-area: titulo3;
+
+}
+
+
+
+
+.productos__contenido{
+    width: 300px;
+}
+
+
+.productos__contenido1{
+    grid-area: contenido1;
+
+}
+.productos__contenido2{
+    grid-area: contenido2;
+
+}
+.productos__contenido3{
+    grid-area: contenido3;
+
+}
+.productos__contenido4{
+    grid-area: contenido4;
+
+}
+.productos__contenido5{
+    grid-area: contenido5;
+
+}
+.productos__contenido6{
+    grid-area: contenido6;
+
+}
+.productos__contenido7{
+    grid-area: contenido7;
+
+}
+
+
+
+.seccionProductos__img{
+
+    margin: 12px;
+    border: 3px solid black; 
+}

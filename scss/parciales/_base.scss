@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Body de manera General */
+
+
+.body {
+
+    font-family: 'Mukta', sans-serif;
+    background: rgb(14,9,0);
+    background: linear-gradient(90deg, rgba(14,9,0,1) 0%, rgba(252,3,3,1) 0%, rgba(252,176,69,1) 100%);
+
+}
+
+
+
+/* Main de manera general */
+
+
+.main{
+
+    margin-top: 180px;
+    min-height: 100vh;
+
+}

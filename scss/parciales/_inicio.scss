@@ -1,0 +1,128 @@
+/* Estilos Index */
+
+
+.presentacion{
+    width: 100%;
+    background: rgb(14,9,0);
+    background: linear-gradient(90deg, rgba(14,9,0,1) 0%, rgba(252,3,3,1) 0%, rgba(252,176,69,1) 100%);
+    height: 780px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.presentacion__slogan {
+    font-size: 48px;
+    color: #000;
+    text-align: left;
+    padding: 40px;
+    animation-name: efecto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+
+
+
+.presentacion__link {
+
+    text-decoration: none;
+    width: 200px;
+    margin: 75px 40px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border:3px solid white;
+    transition:all 2s;
+
+}
+
+.presentacion__link:hover{
+
+    background-color: aliceblue;
+    
+    
+   
+}
+
+.seccionImagenes{
+
+    height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "img1 img2 img3" 
+    "img1 img2 img4" 
+    ;
+    
+
+}
+
+.seccionImagenes__imagen1{
+    grid-area: img1;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.seccionImagenes__imagen2{
+    grid-area: img2;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.seccionImagenes__imagen3{
+    grid-area: img3;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.seccionImagenes__imagen4{
+    grid-area: img4;
+    width: 100%;
+    height: 100%; 
+
+}
+
+.bootstrap1 {
+    
+    margin: 15rem 4rem ;
+    
+}
+
+
+.bootstrap1__titulo {
+
+    text-align: center;
+    margin-bottom: 2rem;
+    
+    
+}
+
+@keyframes efecto {
+
+    0% {
+
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}

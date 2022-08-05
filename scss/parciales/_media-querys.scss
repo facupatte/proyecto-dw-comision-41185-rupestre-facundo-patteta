@@ -1,0 +1,100 @@
+/* Versión Mobile */
+
+
+@media screen and (max-width: 599px) {
+
+    .presentacion__parrafo{
+
+        display: none;
+    }
+
+    .productos{
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10 200px);
+        grid-template-areas: 
+        "titulo1"
+        "contenido1"
+        "contenido2"
+        "contenido3"
+        "titulo2"
+        "contenido4"
+        "contenido5"
+        "titulo3"
+        "contenido6"
+        "contenido7"
+       ;
+
+    }
+    
+    .seccionImagenes{
+
+        display: grid;
+    }
+
+    .encabezado {
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        height: 425px;
+        margin-bottom: 300px ;
+    }
+
+
+    .encabezado__navegacion{
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        
+  }
+
+  .encabezado__logo{
+
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+
+  
+    
+  
+  .paginas {
+
+    border-bottom: solid 2px white ;
+  }
+
+  .seccionImagenes{
+
+    display: none;
+  }
+
+  .presentacion{
+
+    margin-top: 400px;
+    margin-bottom: 0px;
+  }
+
+  .footer{
+    
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 300px;
+    
+  }
+
+  .footer__pie{
+
+    font-size: 12px;
+    padding: 32px;
+  }
+
+}
